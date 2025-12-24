@@ -41,4 +41,3 @@ def scanImg(img):
     
     cv2.imwrite('scanned.jpg', dst)
     return True, dst, img, message
-
